@@ -1,5 +1,5 @@
 <template>
-    <div id="#contacts">
+    <div id="contacts">
         <div class="columns">
             <div class="column is-3">email</div>
             <div class="column is-3">twitter</div>
