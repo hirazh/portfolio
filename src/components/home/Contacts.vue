@@ -1,12 +1,17 @@
 <template>
-    <div id="contacts">
-        <div class="columns">
-            <div class="column is-3">email</div>
-            <div class="column is-3">twitter</div>
-            <div class="column is-3">instagram</div>
-            <div class="column is-3">codepen</div>
+    <section id="contacts" class="contact">
+        <div class="columns social-columns">
+            <div class="column is-4">
+                <a href="mailto:mhmdhiras@gmail.com"><i class="far fa-envelope"></i></a>  
+            </div>
+            <div class="column is-4">
+                <a href="https://twitter.com/hirazhira"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="column is-4">
+                <a href="https://www.instagram.com/hirazz_m/"><i class="fab fa-instagram"></i></a>
+            </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
@@ -16,5 +21,20 @@ export default {
 </script>
 
 <style>
+.contact {
+    margin-bottom: 12%;
+}
 
+.social-columns {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.is-4 {
+    font-size: 5em;
+}
+
+.is-4 a {
+    color: rgb(100, 100, 100);
+}
 </style>

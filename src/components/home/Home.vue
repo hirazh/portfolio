@@ -3,9 +3,6 @@
          <div class="landing-text">
             <h1>Design</h1>
             <h1>Code</h1>
-             <!--
-             <i class="fas fa-angle-down fa-5x"></i>
-             -->
             <i class="fas fa-angle-double-down fa-2x"></i>
          </div>
          

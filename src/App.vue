@@ -17,7 +17,11 @@
     <Contacts></Contacts>
 
     <footer>
-      <h3>Hiras</h3>
+      <h3>HIRAZ</h3><br>
+      Github: <a href="https://github.com/hirazh">hirazh</a><br>
+      CodePen: <a href="https://codepen.io/hiras/">@hiras</a><br><br>
+      <a href="https://twitter.com/hirazhira"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/hirazz_m/"><i class="fab fa-instagram"></i></a>
     </footer>
 
   </div>
@@ -68,10 +72,15 @@ a {
 }
 
 footer {
-  padding: 30px;
+  padding: 40px;
   text-align: center;
+  font-family: 'Anton', sans-serif;
+  background-color: #4756ca;
+  color: #fcfcfc;
 }
-
+ footer a {
+   color: #fcfcfc;
+ }
 @media only screen and (max-width: 1024px) {
   .navbar-end {
     display: none;
