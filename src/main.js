@@ -8,6 +8,14 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+/** page scroll effect */
+var VueScrollTo = require('vue-scrollto');
+Vue.use(VueScrollTo, {
+  container: "body",
+  duration: 700,
+  easing: "ease-out"
+})
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

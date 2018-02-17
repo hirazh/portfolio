@@ -71,9 +71,9 @@ export default {
 }
 
 .card:hover {
-    border-bottom: solid 5px;
-    border-bottom-color: #4756ca;
-    transition: ease-out 50ms;
+    border: solid 5px;
+    border-color: #0fc9e7;
+    transition: linear 100ms;
 }
 .title {
     text-align: center;

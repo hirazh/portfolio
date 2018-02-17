@@ -36,5 +36,11 @@ export default {
 
 .is-4 a {
     color: rgb(100, 100, 100);
+    border-bottom: 3px solid rgb(100, 100, 100);
+}
+
+.is-4:hover a {
+    border-bottom: 3px solid #4756ca;
+    transition: linear 50ms;
 }
 </style>

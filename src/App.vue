@@ -3,10 +3,10 @@
     <header>
       <div class="navbar is-fixed-top">
         <div class="navbar-end">
-          <a class="navbar-item" href="#app">Home</a>
-          <a class="navbar-item" href="#portfolio">Portfolio</a>
-          <a class="navbar-item" href="#aboutMe">About Me</a>
-          <a class="navbar-item" href="#contacts">Contacts</a>
+          <a class="navbar-item" v-scroll-to="'#app'">Home</a>
+          <a class="navbar-item" v-scroll-to="'#portfolio'">Portfolio</a>
+          <a class="navbar-item" v-scroll-to="'#aboutMe'">About Me</a>
+          <a class="navbar-item" v-scroll-to="'#contacts'">Contacts</a>
         </div>
       </div>
     </header>
@@ -16,8 +16,8 @@
     <AboutMe></AboutMe>
     <Contacts></Contacts>
 
-    <footer>
-      <h3>HIRAZ</h3><br>
+    <footer id="ftr">
+      <h3>HIRAS</h3><br>
       Github: <a href="https://github.com/hirazh">hirazh</a><br>
       CodePen: <a href="https://codepen.io/hiras/">@hiras</a><br><br>
       <a href="https://twitter.com/hirazhira"><i class="fab fa-twitter"></i></a>
@@ -28,20 +28,20 @@
 </template>
 
 <script>
-import Home from './components/home/Home.vue'
-import Portfolio from './components/home/Portfolio.vue'
-import AboutMe from './components/home/AboutMe.vue'
-import Contacts from './components/home/Contacts.vue'
+import Home from "./components/home/Home.vue";
+import Portfolio from "./components/home/Portfolio.vue";
+import AboutMe from "./components/home/AboutMe.vue";
+import Contacts from "./components/home/Contacts.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Home,
     Portfolio,
     AboutMe,
     Contacts
   }
-}
+};
 </script>
 
 <style>
@@ -52,7 +52,6 @@ header {
 
 .navbar {
   background-color: #4756ca;
-  
 }
 
 .navbar-item {
@@ -60,7 +59,7 @@ header {
 }
 
 .navbar-item a {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 a {
@@ -74,16 +73,16 @@ a {
 footer {
   padding: 40px;
   text-align: center;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   background-color: #4756ca;
   color: #fcfcfc;
 }
- footer a {
-   color: #fcfcfc;
- }
+footer a {
+  color: #fcfcfc;
+}
 @media only screen and (max-width: 1024px) {
   .navbar-end {
     display: none;
-  } 
+  }
 }
 </style>
