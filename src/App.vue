@@ -17,7 +17,7 @@
     <Contacts></Contacts>
 
     <footer id="ftr">
-      <h3>HIRAS</h3><br>
+      <h3>HIRAZ</h3><br>
       Github: <a href="https://github.com/hirazh">hirazh</a><br>
       CodePen: <a href="https://codepen.io/hiras/">@hiras</a><br><br>
       <a href="https://twitter.com/hirazhira"><i class="fab fa-twitter"></i></a>
@@ -80,9 +80,17 @@ footer {
 footer a {
   color: #fcfcfc;
 }
+
 @media only screen and (max-width: 1024px) {
   .navbar-end {
     display: none;
   }
+
+  header {
+    border-bottom: 1px #fcfcfc solid;
+  }
 }
+
+
+
 </style>

@@ -15,7 +15,7 @@
 export default {
   data () {
       return {
-        aboutMe: 'Hi..., I am Hiras I am a front-end webdeveloper Just trying to build cool websites'
+        aboutMe: 'Hi..., I am Hiraz I am a front-end webdeveloper Just trying to build cool websites'
       }
     }
 }
@@ -51,5 +51,15 @@ export default {
 
 .paragraph-column {
     background-color: #0fc9e7;
+}
+
+@media only screen and (max-width: 760px) {
+  .paragraph-column {
+      padding: 20%;
+    }
+
+    .column p {
+        font-size: 1.4em;
+    }
 }
 </style>

@@ -44,4 +44,16 @@ export default {
 .fa-2x {
     margin-top: 6%;
 }
+
+@media only screen and (max-width: 760px) {
+    .landing-text h1 {
+        font-size: 5em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .landing-text h1 {
+        font-size: 4em;
+    }
+}
 </style>

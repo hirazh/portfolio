@@ -43,4 +43,11 @@ export default {
     border-bottom: 3px solid #4756ca;
     transition: linear 50ms;
 }
+
+@media only screen and (max-width: 760px) {
+  .is-4 {
+      font-size: 3em;
+      padding: 5%;
+  }
+}
 </style>
