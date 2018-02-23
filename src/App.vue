@@ -96,10 +96,6 @@ footer a {
   color: #fcfcfc;
 }
 
-footer p {
-  
-}
-
 @media only screen and (max-width: 1024px) {
   .navbar-end {
     display: none;
