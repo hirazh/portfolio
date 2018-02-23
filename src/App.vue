@@ -2,6 +2,9 @@
   <div id="app">
     <header>
       <div class="navbar is-fixed-top">
+        <div class="navbar-brand">
+          <a v-scroll-to="'#app'"><img src="./assets/logo.png"></a>
+        </div>
         <div class="navbar-end">
           <a class="navbar-item" v-scroll-to="'#app'">Home</a>
           <a class="navbar-item" v-scroll-to="'#portfolio'">Portfolio</a>
@@ -17,9 +20,10 @@
     <Contacts></Contacts>
 
     <footer id="ftr">
-      <h3>HIRAZ</h3><br>
-      Github: <a href="https://github.com/hirazh">hirazh</a><br>
-      CodePen: <a href="https://codepen.io/hiras/">@hiras</a><br><br>
+      <h3>Hiraz</h3>
+      <p>mhmdhiras@gmail.com</p>
+      <p>Github: <a href="https://github.com/hirazh">hirazh</a></p>
+      <p>CodePen: <a href="https://codepen.io/hiras/">@hiras</a></p>
       <a href="https://twitter.com/hirazhira"><i class="fab fa-twitter"></i></a>
       <a href="https://www.instagram.com/hirazz_m/"><i class="fab fa-instagram"></i></a>
     </footer>
@@ -54,6 +58,15 @@ header {
   background-color: #4756ca;
 }
 
+.navbar-brand {
+  margin-left: 3%;
+}
+
+.navbar-brand img {
+  width: 55px;
+  height: 50px;
+}
+
 .navbar-item {
   color: #fcfcfc;
 }
@@ -76,21 +89,20 @@ footer {
   font-family: "Anton", sans-serif;
   background-color: #4756ca;
   color: #fcfcfc;
+  letter-spacing: 1px;
 }
+
 footer a {
   color: #fcfcfc;
+}
+
+footer p {
+  
 }
 
 @media only screen and (max-width: 1024px) {
   .navbar-end {
     display: none;
   }
-
-  header {
-    border-bottom: 1px #fcfcfc solid;
-  }
 }
-
-
-
 </style>

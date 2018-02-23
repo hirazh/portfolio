@@ -41,8 +41,8 @@ export default {
 
 .image-column {
     background: linear-gradient(
-        rgba(15, 201, 231, 0.3),
-        rgba(15, 201, 231, 0.3)),
+        rgba(15, 201, 231, 0.1),
+        rgba(15, 201, 231, 0.5)),
         url('../../assets/propic-portfolio.jpeg');
     height: 100vh;
     background-size: cover;
@@ -59,7 +59,7 @@ export default {
     }
 
     .column p {
-        font-size: 1.4em;
+        font-size: 1.3em;
     }
 }
 </style>

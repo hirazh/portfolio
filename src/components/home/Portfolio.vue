@@ -36,7 +36,7 @@ export default {
         {
           name: "CSS Grid",
           image: require("../../assets/img-gallery.png"),
-          url: ""
+          url: "https://hirazh.github.io/css-grid-iamge-gallery/"
         },
         {
           name: "Quote Generator",
